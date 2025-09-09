@@ -1,0 +1,17 @@
+{
+    "name": "tahas/phpiggy",
+    "description": "php application for tracking expenses.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "taha"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework/",
+            "App\\": "src/App/"
+        }
+    }
+}
