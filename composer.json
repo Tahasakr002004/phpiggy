@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "taha/phpiggy",
     "description": "PHP Application for tracking expenses.",
+=======
+    "name": "tahas/phpiggy",
+    "description": "php application for tracking expenses.",
+>>>>>>> 91ade10650cb824bd89e12d98e25d9ed88a8e7c4
     "type": "project",
     "authors": [
         {
@@ -8,10 +13,17 @@
         }
     ],
     "require": {},
+<<<<<<< HEAD
     "autoload":{
         "psr-4":{
             "Framework\\":"src/Framework/",
             "App\\":"src/App/"
+=======
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework/",
+            "App\\": "src/App/"
+>>>>>>> 91ade10650cb824bd89e12d98e25d9ed88a8e7c4
         }
     }
 }
