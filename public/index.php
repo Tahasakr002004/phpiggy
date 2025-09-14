@@ -1,22 +1,13 @@
 <?php
-<<<<<<< HEAD
 
 declare(strict_types=1);
+
+
+// include helper functions BEFORE anything else so functions are globally available
+require_once __DIR__ . '/../src/App/functions.php';
+
+// Composer autoloader (if you use composer)
+require_once __DIR__ . '/../vendor/autoload.php';
+
 include __DIR__ . '/../src/App/bootstrap.php';
 $app->run();
-
-
-
-
-
-
-
-?>
-=======
-// Load the bootstrap file to start the application entry point
-$app = require __DIR__ . '/../src/App/bootstrap.php';
-
-
-// start the application
-$app->run();
->>>>>>> 91ade10650cb824bd89e12d98e25d9ed88a8e7c4
